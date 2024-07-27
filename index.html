@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="text-logo">
+             <img src="Pics/passport(1).png" alt="" class="logo-img"><a href="#home" class="logo">  <span> Rabin S</span></a>
+        </div>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <!-- <a href="#testimonials">Testimonials</a> -->
+            <a href="Sarthak Jain Resume.pdf" target="_blank">Resume<i class='bx bxs-download'></i></a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Rabin </span></h1>
+            <h3 class="text-animation">I'm a <span class="text">Frontend Developer</span></h3>
+            <p>As a dedicated Frontend Developer, I specialize in creating visually stunning and highly interactive web applications. With a strong command of HTML, CSS, and JavaScript, I bring designs to life, ensuring they are both functional and aesthetically pleasing. My expertise extends to modern frameworks like React, enabling me to build dynamic, responsive user interfaces that enhance user experience. I am passionate about staying current with the latest web development trends and technologies, ensuring my skills remain sharp and relevant. I thrive in collaborative environments, consistently delivering high-quality code and innovative solutions to complex challenges.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/rabin-s-peter/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Rabin57" target="_blank"><i class='bx bxl-github'></i></a>
+                <!-- <a href="https://www.instagram.com/sarthakk.jaiinn" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://x.com/jnsarthak" target="_blank"><i class='bx bxl-twitter' ></i></a> -->
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="./" alt="">
+        </div> -->
+    </section>
+
+    <section class="education" id="education">
+    <h2 class="heading" style=" font-size: 8rem;
+    text-align: center;
+    margin: 2.8rem 0;">Education</h2>
+
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017 - 2018</div>
+                <div class="timeline-content">
+                    <h3>Secondary</h3>
+                    <p>S.F.S Matriculation Higher Secondary School, Pudukkottai, TamilNadu</p>
+                    <p class="cgpa">82.2%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019 - 2020</div>
+                <div class="timeline-content">
+                    <h3>Senior Secondary </h3>
+                    <p>S.F.S Matriculation Higher Secondary School, Pudukkottai, TamilNadu</p>
+                    <p class="cgpa">59%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Engineering in Electronics and Communication Engineering.</h3>
+                    <!-- <h2 class="place">SRM TRP Engineering College, Trichy, TamilNadu (Affiliated to Anna University)</h2> -->
+                    <p>SRM TRP Engineering College, Trichy, TamilNadu (Affiliated to Anna University)</p>
+                    <p class="cgpa">7.21 cgpa</p>
+                </div>
+            </div>
+            <!-- <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Present - 2 months</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <h2 class="place">AU-Ignite Future Skills</h2>
+                    <p>MERN Stack and Full Stack Development</p>
+                    <p>3 months </p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+<!-- ------------------------------skills--------------------- -->
+ <!-- <h1 class="sub-title heading">My<span> Skills</span></h1>
+<section>
+    <div class="sub-title" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Teachnical-bars">
+           
+            <div class="bar"><i class='bx bxl-html5' style='color:#c95d2e'  ></i>
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="progess-line html"></div> 
+                <span></span>
+            </div>
+            <div class="bar"><i class='bx bxl-css3' style='color:#147bbc'  ></i>
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="progess-line css"></div> 
+                <span></span>
+            </div>
+            <div class="bar"><i class='bx bxl-javascript' style='color:#b0bc1e'  ></i>
+                <div class="info">
+                    <span>Java Script</span>
+                </div>
+                <div class="progess-line javascript"></div> 
+                <span></span>
+            </div>
+            <div class="bar"><i class='bx bxl-react' style='color:#62e7ff'  ></i>
+                <div class="info">
+                    <span>React.JS</span>
+                </div>
+                <div class="progess-line react.js"></div> 
+                <span></span>
+            </div>
+            <div class="bar"><i class='bx bxl-java' style='color:#62e7ff'  ></i>
+                <div class="info">
+                    <span>JAVA</span>
+                </div>
+                <div class="progess-line java"></div> 
+                <span></span>
+            </div>
+            <div class="bar"><i class='bx bxl-python' style='color:#62e7ff'  ></i>
+                <div class="info">
+                    <span>Python</span>
+                </div>
+                <div class="progess-line python"></div> 
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+            
+           <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progess-bar" cx="100" cy="100" r="0"></circle>
+           </svg>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+
+ <!-- -------------------------------------------------------------    -->
+
+    <section class="projects" id="projects">
+        <h2 class="heading" style=" font-size: 8rem;
+        text-align: center;
+        margin: 2.8rem 0;">Projects</h2>
+        <div class="projects-container">
+            
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>
+                        Pac-Man Game </h4><br>
+                    <ul>
+                        <p>Overview of a Pac-Man Game Implementation</p>
+                        <li><p>Utilizes the HTML5 canvas API for dynamic game graphics.</p></li>
+                        <li><p>Implements pseudo-random algorithms for ghost movement.</p></li>
+                        <li><p>Employs collision detection for interactions between characters and maze.</p></li>
+                        <li><p>Ensures responsive design for playability on various device sizes.</p></li>
+                        <li><p>Languages used: HTML, CSS and JavaScript</p></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="project-box">
+                <div class="project-info">
+                    <h4>Image Slider Website</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam in excepturi vero reprehenderit dolorum deserunt obcaecati possimus eos, facere nesciunt, eveniet incidunt? Rerum labore, architecto ea eveniet voluptatum fuga?</p>
+                </div>
+            </div> -->
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>News Web Application</h4><br>
+                    <!-- <h5>Made Registration and Login Page</h5> -->
+                    <ul>
+                        <p>Overview of a News Web Application</p>
+                        <li><p>Integrates APIs for real-time news content aggregation and display.</p></li>
+                        <li><p>Features a dynamic user interface with category-based news filtering.</p></li>
+                        <li><p>Utilizes responsive design principles to ensure optimal performance across devices.</p></li>
+                        <li><p>Implements asynchronous JavaScript for smooth data fetching and updates.</p></li>
+                        <li><p>Employs modern web technologies for enhanced user experience and accessibility.</p></li>
+                        <li><p>Languages used: HTML, CSS, Bootstrap CSS, PHP, SQL</p></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="project-box">
+                <div class="project-info">
+                    <h4>Instagram Clone Website</h4>
+                    <ul>
+                    <li><p>Frontend of an Instagram clone website</p></li>
+                    <li><p>Contains story section, left side navbar, posts container and profile container</p></li>
+                    <li><p>Feather icons and FontAwesome icons CDN is used for importing icons and for importing fonts GoogleApisis used</p></li>
+                    <li><p>Story container is fully scrollable on x axis while posts container is infinite scrollable on y axis</p></li>
+                    <li><p>Languages used: HTML and CSS.</p></li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- <section class="testimonials" id="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">Testimonials</h2>
+
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="Pics/" alt="">
+                    <h2>MSD</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex atque vitae sed quidem aut sunt molestias voluptatem reiciendis animi sapiente voluptatibus a doloremque quisquam ratione consectetur, magnam ipsum asperiores tempore!"</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="Pics/Giorgia.jpg" alt="">
+                    <h2>Giorgia Meloni</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex atque vitae sed quidem aut sunt molestias voluptatem reiciendis animi sapiente voluptatibus a doloremque quisquam ratione consectetur, magnam ipsum asperiores tempore!"</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="Pics/Chirag.jpg" alt="">
+                    <h2>Chirag Paswan</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex atque vitae sed quidem aut sunt molestias voluptatem reiciendis animi sapiente voluptatibus a doloremque quisquam ratione consectetur, magnam ipsum asperiores tempore!"</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="Pics/Sonam.jpg" alt="">
+                    <h2>Sonam Bajwa</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex atque vitae sed quidem aut sunt molestias voluptatem reiciendis animi sapiente voluptatibus a doloremque quisquam ratione consectetur, magnam ipsum asperiores tempore!"</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+    <section  class="contact" id="contact">
+        <h2 class="heading" style=" font-size: 8rem;
+        text-align: center;
+        margin: 2.8rem 0;">Contact <span>Me</span></h2>
+        <form action="" name="submit-to-google-sheet">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="PhoneNumber" placeholder="Phone Number">
+                    <textarea type="text" name="Subject"  placeholder="Message"></textarea>
+                    <div class="input-group-2">
+                        <input  type="submit" value="Send Message" class="btn">
+                    </div>
+                    
+                   
+                </div>
+            </div>
+            <!-- <div class="input-group-2">
+                <textarea name="Message" id="" cols="28" rows="7" placeholder="Your Message"></textarea>
+               <textarea type="text" name="Subject"  placeholder="Message"></textarea>
+                <input type="submit" value="Send Message" class="btn"> 
+            </div>  -->
+        </form>
+        <!-- <span id="msg">hello</span> -->
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/rabin-s-peter/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Rabin57" target="_blank"><i class='bx bxl-github'></i></a>
+            <!-- <a href="https://www.instagram.com/sarthakk.jaiinn" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://x.com/jnsarthak" target="_blank"   ><i class='bx bxl-twitter' ></i></a> -->
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Projects</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Rabin S | All Rights Reserved        
+        </p>
+    </footer>
+
+    <script src="script.js "></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwytxRiS_VV-B6CZ_In5CgMxIjFEF7eqdGOLqHTq8E_9wqTjIuNA0g8JfazNIxsAZJ-/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
